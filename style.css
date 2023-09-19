@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+
+/* top colored section */
+.header,
+.section-1{
+    background-color: #1F2937;
+    color: white;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14%;
+    padding-right: 14%; 
+}
+
+.header .main-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .secondary-text{
+    text-decoration: none;
+    color: white;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.section-1 .left {
+    width: 11cm;
+}
+
+.section-1 .main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.section-1 .secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-1 .button{
+    font-weight: bold;
+    padding: 7px 28px;
+    background-color: #3B82F6;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+
+.section-1 .image{
+    background-color: #6D747D;
+    width: 12cm;
+    height: 8cm;
+}
+
+/* Image section */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 .list-of-images {
+    display: flex;
+    gap: 1cm;
+    padding-bottom: 2cm;
+}
+
+.section-2 .image {
+    height: 5cm;
+    width: 7cm;
+    border-radius: 5px;
+}
+
+
+.section-2 .subtext {
+    text-align: center;
+    width: 7cm;
+}
+
+.section-2 .main-text {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* Quote Section */
+.section-3 {
+    padding: 7% 22%;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.section-3 .main-text{
+    
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0px;   
+}
+
+.section-3 .secondary-text {
+    margin-top: 0px;
+    font-size: 23px;
+}
+
+/* Sign-up section */
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 8% 16%;
+    background-color: #3882F6;
+    padding: 40px 85px;
+    color: white;
+    border-radius: 5px;
+}
+
+.section-4 .main-text {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.section-4 .secondary-text {
+    margin: 0;
+}
+
+.section-4 .button {
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.footer {
+    padding: 20px;
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
