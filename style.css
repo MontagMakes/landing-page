@@ -3,13 +3,22 @@ body {
 }
 
 /* top colored section */
-.header,
-.section-1{
+.header{
     background-color: #1F2937;
     color: white;
     
     display: flex;
     justify-content: space-between;
+    padding-left: 14%;
+    padding-right: 14%; 
+}
+
+.section-1{
+    background-color: #16cbde;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
     padding-left: 14%;
     padding-right: 14%; 
 }
@@ -34,7 +43,7 @@ body {
 .section-1 {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -44,17 +53,20 @@ body {
 }
 
 .section-1 .main-text{
-    font-size: 48px;
+    font-size: 70px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: black;
 }
 
 .section-1 .secondary-text{
-    font-size: 18px;
-    color: #E5E7EB;
+    font-size: 20px;
+    color: black;
 }
 
 .section-1 .button{
+    height: 60px;
+    width: 130px;
+    font-size: large;
     font-weight: bold;
     padding: 7px 28px;
     background-color: #3B82F6;
@@ -65,8 +77,8 @@ body {
 
 .section-1 .image{
     background-color: #6D747D;
-    width: 12cm;
-    height: 8cm;
+    width: 100%;
+    height: 100%;
 }
 
 /* Image section */
